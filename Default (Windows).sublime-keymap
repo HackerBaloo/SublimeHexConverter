@@ -1,0 +1,5 @@
+[
+    {
+        "keys": ["alt+h"], "command": "convert_to_from_hex"
+    }
+]

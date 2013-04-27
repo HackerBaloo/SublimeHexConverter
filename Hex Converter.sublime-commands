@@ -1,0 +1,8 @@
+[
+    {"caption": "Hex Converter: Convert to/from hexadecimal", "command": "convert_to_from_hex"},
+    {"caption": "Hex Converter: Convert to/from hexadecimal in place", "command": "convert_to_from_hex_in_place"},
+    {"caption": "Hex Converter: Convert to/from octal", "command": "convert_to_from_octal"},
+    {"caption": "Hex Converter: Convert to/from octal in place", "command": "convert_to_from_octal_in_place"},
+    {"caption": "Hex Converter: Convert to/from binary", "command": "convert_to_from_binary"},
+    {"caption": "Hex Converter: Convert to/from binary in place", "command": "convert_to_from_binary_in_place"}
+]

@@ -1,0 +1,10 @@
+[
+    {
+        // "keys": ["alt+h"], "command": "convert_to_from_octal",
+        // "keys": ["alt+h"], "command": "convert_to_from_octal_in_place",
+        // "keys": ["alt+h"], "command": "convert_to_from_binary",
+        // "keys": ["alt+h"], "command": "convert_to_from_binary_in_place"
+        // "keys": ["alt+h"], "command": "convert_to_from_hex_in_place",
+        "keys": ["alt+h"], "command": "convert_to_from_hex"
+    }
+]

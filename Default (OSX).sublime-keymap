@@ -1,0 +1,5 @@
+[
+    {
+        "keys": ["super+h"], "command": "convert_to_from_hex"
+    }
+]
