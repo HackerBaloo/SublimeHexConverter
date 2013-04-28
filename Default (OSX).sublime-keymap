@@ -1,8 +1,8 @@
 [
-    {"keys": ["ctrl+f8"], "command": "convert_to_from_octal_in_place"},
-    {"keys": ["f8"], "command": "convert_to_from_octal"},
-    {"keys": ["ctrl+f12"], "command": "convert_to_from_binary_in_place"},
-    {"keys": ["f12"], "command": "convert_to_from_binary"},
-    {"keys": ["ctrl+f6"], "command": "convert_to_from_hex_in_place"},
+    // {"keys": ["ctrl+f8"], "command": "convert_to_from_octal_in_place"},
+    // {"keys": ["f8"], "command": "convert_to_from_octal"},
+    // {"keys": ["ctrl+f12"], "command": "convert_to_from_binary_in_place"},
+    // {"keys": ["f12"], "command": "convert_to_from_binary"},
+    // {"keys": ["ctrl+f6"], "command": "convert_to_from_hex_in_place"},
     {"keys": ["f6"], "command": "convert_to_from_hex"}
 ]

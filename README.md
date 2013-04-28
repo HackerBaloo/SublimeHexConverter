@@ -13,30 +13,31 @@ conversion could be added after the number with a separator
 
 Usage
 -----
-All you need to do is to press 'ctrl+shift+o' and 
-Hex Converter will open the selected file in Total Commander 
-or another app if you have changed the  settings
+All you need to do select a number press F6 and 
+Hex Converter will do a normal hex conversion, the other commands are not yet 
+bound to any keys, to avoid conflicts, but available in as comments in keymaps
+and of course in command palette.
 
     Hex conversion
-        Selection   Result          TypOfConversion
-        32          32 / 0x20       Normal
-        0x20        0x20 / 32       Normal
-        32          0x20            InPlace
-        0x20        32              InPlace
+        Selection   Result          TypOfConversion     Command Palette
+        32          32 / 0x20       Normal              Hex Converter: Convert to/from hexadecimal
+        0x20        0x20 / 32       Normal              Hex Converter: Convert to/from hexadecimal
+        32          0x20            InPlace             Hex Converter: Convert to/from hexadecimal in place
+        0x20        32              InPlace             Hex Converter: Convert to/from hexadecimal in place
 
     Octal conversion
         Selection   Result          TypOfConversion
-        32          32 / 040        Normal
-        040         040 / 32        Normal
-        32          040             InPlace
-        040         32              InPlace
+        32          32 / 040        Normal              Hex Converter: Convert to/from octal
+        040         040 / 32        Normal              Hex Converter: Convert to/from octal
+        32          040             InPlace             Hex Converter: Convert to/from octal in place
+        040         32              InPlace             Hex Converter: Convert to/from octal in place
 
     Binary conversion
         Selection   Result          TypOfConversion
-        32          32 / 0b100000   Normal
-        0b100000    0b100000 / 32   Normal
-        32          0b100000        InPlace
-        0b100000    32              InPlace
+        32          32 / 0b100000   Normal              Hex Converter: Convert to/from binary
+        0b100000    0b100000 / 32   Normal              Hex Converter: Convert to/from binary
+        32          0b100000        InPlace             Hex Converter: Convert to/from binary in place
+        0b100000    32              InPlace             Hex Converter: Convert to/from binary in place
 
 Configuration
 -------------
