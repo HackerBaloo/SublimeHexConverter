@@ -1,4 +1,4 @@
-sublimegdb.sublime-project
-sublimegdb.sublime-workspace
+project.sublime-project
+project.sublime-workspace
 *.pyc
 number.test
