@@ -9,15 +9,20 @@ def get_separator():
     return settings.get('separator')
 
 
+def get_word(view, region):
+    new_region = view.word(region)
+    value = view.substr(new_region)
+    if not value:
+        new_region = region.begin() - 1
+        value = view.substr(view.word(new_region))
+    return value, new_region
+
+
 def convert(edit, view, prefix, base, in_place):
     print('base: ', base, 'prefix: ', prefix, 'in_place: ', in_place)
     selected_regions = view.sel()
     for region in selected_regions:
-        value = view.substr(region)
-        print('selection: ', value)
-    for region in selected_regions:
-        value = view.substr(region)
-        print('selection: ', value)
+        value, new_region = get_word(view, region)
         if value.startswith(prefix):
             result = str(int(value, base))
         else:
@@ -32,10 +37,10 @@ def convert(edit, view, prefix, base, in_place):
 
         print('result: ', result)
         if in_place:
-            view.replace(edit, region, result)
+            view.replace(edit, new_region, result)
         else:
-            view.replace(edit, region, value + ' / ' + result)
-        return value, result
+            view.replace(edit, new_region, value + ' / ' + result)
+    return value, result
 
 
 class Base(sublime_plugin.TextCommand):
