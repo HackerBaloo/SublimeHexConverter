@@ -56,7 +56,7 @@ the Hex Converter folder to your Sublime Text 2 "Packages" directory.
 
 **With Git:** Clone the repository in your Sublime Text 2 "Packages" directory:
 
-    git clone https://github.com/HackerBaloo/SublimeHexConverter
+    git clone https://github.com/HackerBaloo/SublimeHexConverter "Hex Converter"
 
 The "Packages" directory can be found in the following locations:
 
