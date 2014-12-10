@@ -14,7 +14,7 @@ conversion could be added after the number with a separator
 Usage
 -----
 All you need to do select (or have the cursor right after, convinient if you
-just wrote the number you want to convert) a number press F6 and 
+just wrote the number you want to convert) a number press alt+shift+h and 
 Hex Converter will do a normal hex conversion, the other commands are not yet 
 bound to any keys to avoid conflicts, but available in as comments in keymaps
 and of course in command palette.

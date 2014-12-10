@@ -4,5 +4,5 @@
     // {"keys": ["ctrl+f12"], "command": "convert_to_from_binary_in_place"},
     // {"keys": ["f12"], "command": "convert_to_from_binary"},
     // {"keys": ["ctrl+f6"], "command": "convert_to_from_hex_in_place"},
-    {"keys": ["f6"], "command": "convert_to_from_hex"}
+    {"keys": ["alt+shift+h"], "command": "convert_to_from_hex"}
 ]
